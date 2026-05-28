@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vienna Civic Club | Pfafftown, NC</title>
+  <style>
+    :root {
+      --red: #b00020;
+      --black: #111;
+      --light: #f7f7f7;
+      --white: #fff;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: var(--black);
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--black);
+      color: var(--white);
+      padding: 1rem 2rem;
+      position: sticky;
+      top: 0;
+    }
+
+    header h1 {
+      margin: 0;
+      color: var(--red);
+    }
+
+    nav {
+      margin-top: .5rem;
+    }
+
+    nav a {
+      color: var(--white);
+      margin-right: 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: var(--red);
+    }
+
+    .hero {
+      background: linear-gradient(rgba(0,0,0,.65), rgba(0,0,0,.65)), var(--black);
+      color: var(--white);
+      text-align: center;
+      padding: 5rem 2rem;
+    }
+
+    .hero h2 {
+      font-size: 2.7rem;
+      margin-bottom: 1rem;
+    }
+
+    .button {
+      display: inline-block;
+      background: var(--red);
+      color: var(--white);
+      padding: .8rem 1.3rem;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 1rem;
+    }
+
+    section {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    section:nth-child(even) {
+      background: var(--light);
+    }
+
+    h2 {
+      color: var(--red);
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1rem;
+    }
+
+    .card {
+      border: 1px solid #ddd;
+      padding: 1.25rem;
+      border-top: 5px solid var(--red);
+      background: var(--white);
+      border-radius: 6px;
+    }
+
+    footer {
+      background: var(--black);
+      color: var(--white);
+      text-align: center;
+      padding: 1.5rem;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Vienna Civic Club</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#events">Events</a>
+      <a href="#projects">Projects</a>
+      <a href="#membership">Membership</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero" id="home">
+    <h2>Serving Pfafftown with Pride</h2>
+    <p>Neighbors working together to strengthen our community through service, leadership, and civic engagement.</p>
+    <a class="button" href="#membership">Join the Club</a>
+  </div>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      The Vienna Civic Club is a local community organization serving Pfafftown, North Carolina.
+      We bring residents together to support neighborhood improvement, public service, local events,
+      and civic pride.
+    </p>
+  </section>
+
+  <section id="events">
+    <h2>Upcoming Events</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Monthly Meeting</h3>
+        <p>Join us for updates, planning, and community discussion.</p>
+      </div>
+      <div class="card">
+        <h3>Community Cleanup</h3>
+        <p>Help keep Pfafftown beautiful through local volunteer service.</p>
+      </div>
+      <div class="card">
+        <h3>Fundraiser</h3>
+        <p>Support projects that benefit our neighbors and community spaces.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Community Projects</h2>
+    <p>
+      Our projects focus on beautification, service, outreach, neighborhood improvement,
+      and supporting local causes that make Pfafftown a better place to live.
+    </p>
+  </section>
+
+  <section id="membership">
+    <h2>Membership</h2>
+    <p>
+      Membership is open to residents and friends of the Pfafftown community who want to make
+      a positive local impact. Attend a meeting, volunteer at an event, or contact us to learn more.
+    </p>
+    <a class="button" href="mailto:info@viennacivicclub.org">Become a Member</a>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p><strong>Email:</strong> info@viennacivicclub.org</p>
+    <p><strong>Location:</strong> Pfafftown, North Carolina</p>
+    <p><strong>Follow Us:</strong> Facebook | Instagram | Local Community Board</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Vienna Civic Club. Pfafftown, NC. All rights reserved.</p>
+  </footer>
+</body>
+</html>
