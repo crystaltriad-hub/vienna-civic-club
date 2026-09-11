@@ -36,7 +36,7 @@
 
 .site-logo {
   display: block;
-  width: 330px;
+  width: 300px;
   max-width: 100%;
   height: auto;
   }
@@ -51,6 +51,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  margin-left: auto;
 }
 
 nav a {
@@ -58,7 +59,9 @@ nav a {
   color: #111;
   text-decoration: none;
   font-weight: 600;
-  margin-left: 35px;
+  margin-left: 32px;
+  padding-bottom: 4px;
+  border-bottom: 2px solid transparent;
 }
 
 nav a:first-child {
@@ -67,6 +70,7 @@ nav a:first-child {
 
 nav a:hover {
   color: var(--red);
+  border-bottom-color: var(--red);
 }
     .hero {
       background: linear-gradient(rgba(0,0,0,.65), rgba(0,0,0,.65)), var(--black);
