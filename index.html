@@ -47,14 +47,22 @@
   }
 }
 
-    nav {
-      margin-top: .5rem;
-    }
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
 
-    nav a {
+nav a {
+  display: inline-block;
   color: #111;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 600;
+  margin-left: 35px;
+}
+
+nav a:first-child {
+  margin-left: 0;
 }
 
 nav a:hover {
