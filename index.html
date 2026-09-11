@@ -27,24 +27,23 @@
       top: 0;
     }
 
-    .logo-link {
-  display: inline-block;
-  background: white;
-  padding: 5px 10px;
-  border-radius: 6px;
+  .logo-link {
+  display: block;
   line-height: 0;
+  flex-shrink: 0;
 }
 
 .site-logo {
   display: block;
-  width: 260px;
+  width: 330px;
   max-width: 100%;
   height: auto;
+  border-radius: 4px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .site-logo {
-    width: 200px;
+    width: 260px;
   }
 }
 
@@ -126,7 +125,7 @@
 <body>
   <header>
     <a href="#home" class="logo-link">
-  <img src="club-logo.jpg" alt="Vienna Civic Club" class="site-logo">
+  <img src="vienna-logo.jpg" alt="Vienna Civic Club" class="site-logo">
 </a>
     <nav>
       <a href="#home">Home</a>
