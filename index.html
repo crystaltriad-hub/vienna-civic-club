@@ -17,6 +17,7 @@
       font-family: Arial, sans-serif;
       color: var(--black);
       line-height: 1.6;
+      overflow-x: hidden;
     }
 
     header {
@@ -45,8 +46,26 @@
   }
 
 @media (max-width: 700px) {
+  header {
+    flex-wrap: wrap;
+    padding: 14px 18px;
+    gap: 12px;
+  }
+
   .site-logo {
-    width: 260px;
+    width: 240px;
+  }
+
+  nav {
+    width: 100%;
+    margin-left: 0;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px 18px;
+  }
+
+  nav a {
+    margin-left: 0;
   }
 }
 
