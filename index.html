@@ -45,30 +45,6 @@
   height: auto;
   }
 
-@media (max-width: 700px) {
-  header {
-    flex-wrap: wrap;
-    padding: 14px 18px;
-    gap: 12px;
-  }
-
-  .site-logo {
-    width: 240px;
-  }
-
-  nav {
-    width: 100%;
-    margin-left: 0;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 8px 18px;
-  }
-
-  nav a {
-    margin-left: 0;
-  }
-}
-
 nav {
   display: flex;
   align-items: center;
@@ -93,6 +69,31 @@ nav a:first-child {
 nav a:hover {
   color: var(--red);
   border-bottom-color: var(--red);
+}
+
+/* Mobile layout */
+@media (max-width: 700px) {
+  header {
+    flex-wrap: wrap;
+    padding: 14px 18px;
+    gap: 12px;
+  }
+
+  .site-logo {
+    width: 240px;
+  }
+
+  nav {
+    width: 100%;
+    margin-left: 0;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px 18px;
+  }
+
+  nav a {
+    margin-left: 0;
+  }
 }
 /* Contact links */
 #contact a,
@@ -195,7 +196,7 @@ nav a:hover {
       We bring residents together to support neighborhood improvement, public service, local events,
       and civic pride. Our mission is to promote fellowship among our members, serve the community 
       through the sponsorship of worthwhile projects and to further the American way of life through 
-      ethical partcipation in our community.
+      ethical participation in our community.
     </p>
   </section>
 
@@ -259,8 +260,7 @@ nav a:hover {
   </p>
 </div>
 
-  </div>
-</section>
+ </section>
 
   <section id="projects">
     <h2>Community Projects</h2>
