@@ -99,7 +99,7 @@ nav a:hover {
     scroll-margin-top: 170px;
   }
 }
-/* Contact links */
+/* Contact and Membership links */
 #contact a,
 #membership a:not(.button) {
   color: var(--red);
@@ -109,6 +109,17 @@ nav a:hover {
 
 #contact a:hover,
 #membership a:not(.button):hover {
+  text-decoration: underline;
+}
+
+/* Event links */
+#events a {
+  color: var(--red);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+#events a:hover {
   text-decoration: underline;
 }
     .hero {
@@ -207,18 +218,24 @@ nav a:hover {
  <section id="events">
   <h2>Upcoming Events</h2>
 
- <h3>Upcoming Club Meetings</h3>
+<h3>Upcoming Club Meetings</h3>
 
 <div class="card">
   <p><strong>Meeting Dates:</strong></p>
   <p>September 23, 2026</p>
   <p>October 28, 2026</p>
 
+  <p><strong>Time:</strong> 6:30 PM</p>
+
   <p>
     <strong>Location:</strong><br>
     Brookstown UMC Fellowship Hall<br>
-    6274 Yadkinville Rd<br>
-    Pfafftown, NC 27040
+    <a href="https://www.google.com/maps/search/?api=1&query=6274+Yadkinville+Rd+Pfafftown+NC+27040"
+       target="_blank"
+       rel="noopener noreferrer">
+      6274 Yadkinville Rd<br>
+      Pfafftown, NC 27040
+    </a>
   </p>
 </div>
 
